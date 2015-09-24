@@ -27,7 +27,8 @@
                 android:text="ON/OFF"
                 android:id="@+id/PowerButton"
                 android:background="#ff848ff1"
-                android:layout_marginBottom="0dp" />
+                android:layout_marginBottom="0dp"
+                android:onClick="togglePower"/>
 
             <Button
                 android:layout_width="fill_parent"
@@ -71,14 +72,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="116dp">
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
                     android:inputType="textMultiLine"
                     android:ems="10"
                     android:id="@+id/DisplayScreen"
                     android:text="Station Display"
-                    android:textSize="80dp"
+                    android:textSize="50dp"
                     android:textColor="#ffd9fffa"
                     android:layout_margin="20dp" />
             </LinearLayout>
